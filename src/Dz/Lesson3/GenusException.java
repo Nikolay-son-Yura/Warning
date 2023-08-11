@@ -1,9 +1,9 @@
 package Dz.Lesson3;
 
 public class GenusException extends Throwable {
-//    public GenusException() {
-//
-//    }
+    public GenusException() {
+
+    }
 
     public void GenusException(String i) {
         System.out.println("Exception: GenusNotCorrectData");
